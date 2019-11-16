@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: 'Wallpoet', cursive;
+}
+
+.container {
+  background-image: url('../images/background-2300415_1920.jpg');
+  background-size: cover;
+  text-shadow: #cbfbfd 2px 0 10px;
+  color: #b93426;
+  font-size: 1.1em;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.dane {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#contact {
+  margin-top: 0;
+  padding-top: 20%;
+}
+
+.custom-icon {
+  width: 30%;
+  transition: .7s .2s ease-out;
+  padding-top: 10%;
+}
+
+.custom-icon:hover {
+  transform: rotate(360deg) scale(1.4);
+  transform-origin: center;
+}
+
+a {
+  text-align: center;
+}
+
+.svgs {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.modal-style {
+  width: 80%;
+  height: 60%;
+  background: white;
+  text-align: center;
+  padding-top: 1.5em;
+  border-radius: 25px;
+  background-color: #b93426;
+  color: #ece66b;
+  text-shadow: #cbfbfd 2px 0 7px;
+  line-height: 1.3em;
+}
+
+.modal-style button {
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+/*----------------------------------------
+            Media Quaries
+-----------------------------------------*/
+
+@media(min-width: 678px) {
+  #contact {
+    margin-top: 0;
+    padding-top: 10%;
+  }
+
+  .dane {
+    font-size: 1.3em;
+  }
+
+  .svgs {
+    padding-top: 10px;
+  }
+
+  .modal-style button {
+    margin-top: 35px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .modal-style {
+    padding: 8% 5% 0;
+    font-size: 1.3em;
+  }
+
+}
+
+@media(min-width: 878px) {
+  #contact {
+    margin-top: 0;
+    padding-top: 10%;
+  }
+
+  .dane {
+    font-size: 1.5em;
+  }
+
+  .svgs {
+    padding-top: 40px;
+    justify-content: flex-end;
+  }
+
+  .modal-style button {
+    margin-top: 35px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .modal-style {
+    padding: 8% 5% 0;
+    font-size: 1.5em;
+  }
+}

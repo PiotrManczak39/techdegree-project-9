@@ -1,0 +1,103 @@
+/* Universal selectors */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+/*-----------------------------------
+             Type selectors
+-------------------------------------*/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 0;
+}
+/*----------------------------------
+             Class selectors
+------------------------------------*/
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  background-color: #c6cdce;
+  margin: 0;
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Supermercado One', cursive;
+  font-size: .9em;
+}
+.wrapper {
+  max-width: 90%;
+  margin: auto;
+}
+
+.header {
+  padding-top: 50px;
+  background-image: url("../Northamptonpics/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: rgba(236, 90, 57, .9);
+  text-shadow: 2px -2px black;
+  font-size: 1.45em;
+}
+
+.header p {
+  padding-bottom: 20px;
+}
+
+.image1,
+.castlepic1,
+.churchpic {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.footer {
+  background-color: lightgray;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.footer-contact {
+  font-family: 'Supermercado One', cursive;
+}
+
+/*----------------------------------
+          Media Queries
+------------------------------------*/
+
+@media(min-width: 768px) {
+  .header {
+    padding-top: 100px;
+  }
+
+  .header p {
+    padding-bottom: 60px;
+  }
+
+  .section {
+    display: flex;
+  }
+
+  .section p {
+    max-width: 50%;
+    padding-right: 2em;
+  }
+
+  .nav {
+    font-size: 2em;
+  }
+}

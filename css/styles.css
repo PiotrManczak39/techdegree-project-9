@@ -1,0 +1,22 @@
+
+.jumbotron {
+  background-image: url(../images/jumbobackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about li {
+  display: inline-block;
+  margin-right: 1.5em;
+  padding: 8px;
+  border-radius: 17px;
+  font-weight: bold;
+}
+
+.about ul li:nth-child(odd) {
+  background-color: orange;
+}
+
+.about ul li:nth-child(even) {
+  background-color: yellow;
+}

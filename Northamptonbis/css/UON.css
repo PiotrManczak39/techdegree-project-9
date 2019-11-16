@@ -1,0 +1,117 @@
+/*--------------------------------
+        General Selectors
+---------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*--------------------------------
+        HTML Tag Selectors
+---------------------------------*/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url('..//Northamptonpics/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(236, 90, 57, .9);
+  text-shadow: 1px -1px black;
+}
+
+h1 {
+  margin: 0;
+}
+
+section p {
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+/*--------------------------------
+        Class Selectors
+---------------------------------*/
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #c6cdce;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Supermercado One', cursive;
+}
+
+.image {
+  text-align: center;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 30px 0;
+}
+
+.footer-contact {
+  font-family: 'Supermercado One', cursive;
+}
+
+/*--------------------------------
+        Media Queries
+---------------------------------*/
+
+@media(min-width: 768px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .navigation {
+    font-size: 1.75em;
+  }
+
+  header {
+    padding: 65px 0;
+    font-size: 1.45em;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  section p {
+    padding-right: 40px;
+    max-width: 90%;
+  }
+
+  img {
+    border: solid 1px gray;
+    border-radius: 20px;
+  }
+
+  .footer-contact {
+    font-size: 1.25em;
+  }
+
+}
